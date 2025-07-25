@@ -185,14 +185,15 @@ retrieval, minimizing semantic drift across chunks.
 
 ---
 
-### Q3. What embedding model was used and why?**
+### Q3. What embedding model was used and why?
 
 **Answer:**  
-I used `paraphrase-multilingual-MiniLM-L12-v2`, from SentenceTransformers.
-It supports both Bangla and English and provides dense, semantic embeddings ideal for
-multilingual tasks. This model captures paraphrastic similarity and sentence-level meaning
-effectively, making it suitable for both factual and abstract semantic search across mixed-language chunks.
+I used `paraphrase-multilingual-MiniLM-L12-v2`, from SentenceTransformers.  
+It supports both Bangla and English and provides dense, semantic embeddings ideal for multilingual tasks.  
+This model captures paraphrastic similarity and sentence-level meaning effectively, making it suitable for both factual and abstract semantic search across mixed-language chunks.
+
 ---
+
 
 ### Q4. How is query matching performed?
 
