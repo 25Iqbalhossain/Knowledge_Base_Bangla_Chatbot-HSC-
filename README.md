@@ -185,7 +185,7 @@ retrieval, minimizing semantic drift across chunks.
 
 ---
 
-**Q3. What embedding model was used and why?**
+### Q3. What embedding model was used and why?**
 
 **Answer:**  
 I used `paraphrase-multilingual-MiniLM-L12-v2`, from SentenceTransformers.
@@ -240,4 +240,4 @@ Relevance is generally high. Improvements could include:
 
 **Developed by:** IQBAL HOSSAIN 
 
-**Contact:** [Open an issue] 25ikbalhossain@gmail.com or contact the developer team.
+**Contact:** [Open an issue] 25ikbalhossain@gmail.com .
