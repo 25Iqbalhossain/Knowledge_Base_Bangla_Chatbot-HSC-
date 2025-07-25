@@ -57,30 +57,27 @@ pip install tensorflow==2.18.0 tf-keras==2.18.0 tensorboard==2.18.0 ml-dtypes==0
 
 
 Bangla_chatbot/
-│
 ├── backend/
-│   ├── app/                  # Main backend application modules
-│   ├── handlers/             # Request handlers and API endpoints
-│   ├── vector_store/         # Vector storage and retrieval logic
-│   ├── pdf_handler.py        # PDF processing utilities
-│   └── main.py               # Backend server entry point
-│
-├── frontend/                 # Node.js + React client interface
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Chatbox.js    # Chat interface component
-│   │   │   └── chatwidget.js # Chat widget component
-│   │   ├── App.js            # React main app file
-│   │   └── index.js          # React app entry point
-│   ├── public/               # Static public files
-│   ├── node_modules/         # Node dependencies (auto-generated)
-│   ├── package.json          # Frontend dependencies and scripts
-│   └── package-lock.json     # Lockfile for package versions
-│
-├── Indic-OCR/                # Optional/legacy OCR module for Indic scripts
-├── my-app/                   # Optional testing or sandbox app
-├── venv/                     # Python virtual environment for backend
-└── README.md                 # Project overview and instructions
+│ ├── app/ # Main backend application modules
+│ │ └── handlers/ # Request handlers and API endpoints
+│ ├── vector_store/ # Vector storage and retrieval logic
+│ │ └── pdf_handler.py # PDF processing utilities
+│ └── main.py # Backend server entry point
+├── frontend/ # Node.js + React client interface
+│ └── src/
+│ └── components/
+│ └── Chatbox.js # Chat interface component
+│ ├── chatwidget.js # Chat widget component
+│ ├── App.js # React main app file
+│ └── index.js # React app entry point
+│ └── public/ # Static public files
+│ └── node_modules/ # Node dependencies (auto-generated)
+│ └── package.json # Frontend dependencies and scripts
+│ └── package-lock.json # Lockfile for package versions
+├── Indic-OCR/ # Optional/legacy OCR module for Indic scripts
+├── my-app/ # Optional testing or sandbox app
+├── venv/ # Python virtual environment for backend
+└── README.md # Project overview and instructions
 
 ---
 
