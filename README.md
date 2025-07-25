@@ -170,12 +170,13 @@ using OpenCV (for deskewing, binarization, and sharpening) and then passed to Ea
 with Bangla and English language models. OCR was essential due to mixed-script PDFs or
 scanned documents lacking machine-readable text.
 
+---
 
 
 ### Q2. What chunking strategy was used?
 
 **Answer:**  
-I  implemented a structure-aware hybrid chunking strategy. The text
+Implemented a structure-aware hybrid chunking strategy. The text
 was first split by section markers (e.g., অধয্ায়'', “Chapter”, “Example”). Longer segments
 exceeding 512 characters were further tokenized into sentences using regex-based Bangla or
 English splitters. Sentence groups were formed up to the 512-character threshold. This
