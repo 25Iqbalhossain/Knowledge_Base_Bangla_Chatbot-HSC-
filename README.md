@@ -59,28 +59,43 @@ pip install tensorflow==2.18.0 tf-keras==2.18.0 tensorboard==2.18.0 ml-dtypes==0
 Bangla_chatbot/
 │
 ├── backend/
-│   ├── app/
-│   ├── handlers/
-│   ├── vector_store/
-│   ├── pdf_handler.py
-│   └── main.py
+│   ├── app/                  # Main backend application modules
+│   ├── handlers/             # Request handlers and API endpoints
+│   ├── vector_store/         # Vector storage and retrieval logic
+│   ├── pdf_handler.py        # PDF processing utilities
+│   └── main.py               # Backend server entry point
 │
-├── frontend/                # Node.js + React client interface
+├── frontend/                 # Node.js + React client interface
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── Chatbox.js
-│   │   │   └── chatwidget.js
-│   │   ├── App.js
-│   │   └── index.js
-│   ├── public/
-│   ├── node_modules/
-│   ├── package.json
-│   └── package-lock.json
+│   │   │   ├── Chatbox.js    # Chat interface component
+│   │   │   └── chatwidget.js # Chat widget component
+│   │   ├── App.js            # React main app file
+│   │   └── index.js          # React app entry point
+│   ├── public/               # Static public files
+│   ├── node_modules/         # Node dependencies (auto-generated)
+│   ├── package.json          # Frontend dependencies and scripts
+│   └── package-lock.json     # Lockfile for package versions
 │
-├── Indic-OCR/               # Additional OCR module (optional or legacy)
-├── my-app/                  # (Optional or testing app)
-├── venv/
-└── README.md
+├── Indic-OCR/                # Optional/legacy OCR module for Indic scripts
+├── my-app/                   # Optional testing or sandbox app
+├── venv/                     # Python virtual environment for backend
+└── README.md                 # Project overview and instructions
+
+---
+
+Description:
+This project is a Knowledge-Based Bangla Chatbot with a backend REST API powered by Python and FastAPI, and a frontend built with React.js. It includes modules for PDF handling, vector search, and optional OCR support for Indic scripts.
+
+To run the project, you need to:
+
+1. Setup the Python virtual environment in `venv/`
+2. Install backend dependencies
+3. Run the backend server (`main.py`)
+4. Setup and run the React frontend (`frontend/`)
+
+For more detailed instructions, please refer to the README.md file.
+
 
 
 
