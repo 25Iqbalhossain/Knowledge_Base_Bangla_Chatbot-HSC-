@@ -1,0 +1,45 @@
+# FastAPI core and server
+fastapi
+uvicorn[standard]
+
+# Request/response handling
+httpx
+python-multipart  # for file uploads
+
+# PDF processing
+PyPDF2
+PyMuPDF
+
+# OCR and image processing
+easyocr
+pytesseract
+opencv-python-headless
+pillow
+numpy
+
+# Language detection and NLP
+langdetect
+nltk  # ensure punkt is downloaded at runtime
+
+# Embedding and vector similarity
+sentence-transformers
+faiss-cpu  # use faiss-gpu if GPU is available
+
+# Gradio API client (optional, remove if not used)
+gradio_client
+
+# Hugging Face model support
+huggingface_hub
+
+# Custom library
+groq  # only include if you're really using Groq's API
+
+bnltk
+
+pyhton
+
+pip install bnltk tensorflow==2.18.0
+
+pip install tf-keras
+
+pip install tensorflow==2.18.0 tf-keras==2.18.0 tensorboard==2.18.0 ml-dtypes==0.4.0
