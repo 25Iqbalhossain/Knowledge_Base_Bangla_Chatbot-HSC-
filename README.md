@@ -53,8 +53,6 @@ pip install tensorflow==2.18.0 tf-keras==2.18.0 tensorboard==2.18.0 ml-dtypes==0
 - ⚙️ **FastAPI Backend**: Lightweight and asynchronous Python backend using FastAPI for handling uploads, indexing, and query response.
 
 
-## 📁 Project Structure
-
 
 ## 📁 Project Structure
 
@@ -81,7 +79,7 @@ Bangla_chatbot/
 ├── my-app/                         # Optional testing or sandbox app
 ├── venv/                           # Python virtual environment for backend
 └── README.md                       # Project overview and instructions
-
+```
 ---
 
 Description:
@@ -96,7 +94,7 @@ To run the project, you need to:
 
 For more detailed instructions, please refer to the README.md file.
 
-```
+
 
 
 ## ⚙️ Technologies Used
