@@ -20,8 +20,8 @@ source venv310/bin/activate  # On Windows: venv310\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-### ✅ Frontend (Node.js + React)
+```
+### ✅ Frontend (Node.js + React) [just run this automatically run backedn]
 
 ```bash
 cd frontend
