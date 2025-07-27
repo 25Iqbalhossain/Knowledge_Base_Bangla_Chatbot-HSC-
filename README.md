@@ -29,7 +29,7 @@ npm install
 npm run start
 ```
 
-### Optional: Fix for bnltk-related TensorFlow Issues if get issues( i didn't use it but use for test perpouse) 
+### Optional: Fix for bnltk-related TensorFlow Issues if get issues( i didn't use main project  it but use for test ) 
 
 ```bash
 pip install tensorflow==2.18.0 tf-keras==2.18.0 tensorboard==2.18.0 ml-dtypes==0.4.0
