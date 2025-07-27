@@ -40,6 +40,6 @@ pyhton
 # if not required for future update boost performance it's need now its have some dependencies issues
 #pip install bnltk tensorflow
 
-pip install tf-keras
+#pip install tf-keras
 
 #pip install tensorflow==2.18.0 tf-keras==2.18.0 tensorboard==2.18.0 ml-dtypes==0.4.0
