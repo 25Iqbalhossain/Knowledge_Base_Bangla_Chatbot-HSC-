@@ -37,8 +37,8 @@ groq  # only include if you're really using Groq's API
 bnltk
 
 pyhton
-
-pip install bnltk tensorflow
+# if not required for future update boost performance it's need now its have some dependencies issues
+#pip install bnltk tensorflow
 
 pip install tf-keras
 
